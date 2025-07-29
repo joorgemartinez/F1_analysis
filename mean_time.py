@@ -59,3 +59,5 @@ plt.xlabel("Duración media (segundos)")
 plt.title("Tiempo medio por vuelta - GP España 2024")
 plt.tight_layout()
 plt.show()
+plt.savefig("tiempos_medios.png", dpi=300, bbox_inches="tight")
+

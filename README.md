@@ -35,6 +35,11 @@ El script `mean_time.py` genera un gráfico de barras horizontal con:
 - Colores según el equipo
 - Etiquetas con formato `min:seg.milisegundos` (ej. `1:17.456`)
 
+## 📊 Ejemplo de visualización
+
+![Gráfico de tiempos medios por vuelta](tiempos_medios.png)
+
+
 ---
 
 ## ⚙️ Requisitos
