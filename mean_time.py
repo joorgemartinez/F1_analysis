@@ -13,7 +13,7 @@ def format_time(seconds):
 # Cargar el archivo ya con nombres
 df = pd.read_csv("laps_spain_2024_named.csv")
 
-# Excluir vueltas justo después de salir de boxes
+# Excluir vueltas justo después de salir de boxes (Son outliers)
 df_clean = df[~df["is_pit_out_lap"]]
 
 # Agrupar por piloto y calcular media

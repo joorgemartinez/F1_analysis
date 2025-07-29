@@ -11,7 +11,7 @@ response = requests.get(url, params=params)
 
 if response.status_code == 200:
     df_drivers = pd.DataFrame(response.json())
-    df_drivers = df_drivers[['driver_number', 'broadcast_name']].drop_duplicates()
+    df_drivers = df_drivers[['driver_number', 'broadcast_name','team_name']].drop_duplicates()
     print(df_drivers)
 else:
     print(f"Error: {response.status_code}")
